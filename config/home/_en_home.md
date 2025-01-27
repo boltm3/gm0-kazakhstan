@@ -6,34 +6,34 @@
       Choose the language to explore the FIRST Tech Challenge documentation.
     </p>
   </div>
-
   <!-- Cards for Documentation Links -->
-  <div class="flex justify-center space-x-4">
+  <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
     <!-- English Card -->
-    <div class="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow w-64">
+    <div class="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
       <div class="p-6 text-center">
-        <h3 class="text-xl font-semibold text-gray-900">FTC EN</h3>
+        <h3 class="text-xl font-semibold text-gray-900">FTC EN1</h3>
         <p class="text-gray-600 mb-4">Explore the English documentation.</p>
         <a
-          href="/index.html#/en/docs/ftc/index.md"
+          href="./index.html#/en/docs/ftc/index.md"
           class="inline-block px-6 py-2 text-xs bg-blue-500 text-white rounded-md hover:bg-blue-600 transition duration-300"
         >
           Go
         </a>
       </div>
     </div>
-
-<div class="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow w-64">
+    <!-- Russian Card -->
+    <div class="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
       <div class="p-6 text-center">
         <h3 class="text-xl font-semibold text-gray-900">FTC RU</h3>
         <p class="text-gray-600 mb-4">Explore the Russian documentation.</p>
         <a
-          href="/index.html#/ru/docs/ftc/index.md"
+          href="./index.html#/ru/docs/ftc/index.md"
           class="inline-block px-6 py-2 text-xs bg-green-500 text-white rounded-md hover:bg-green-600 transition duration-300"
         >
           Go
         </a>
       </div>
     </div>
+
   </div>
 </div>

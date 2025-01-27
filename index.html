@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>boltm3</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="description" content="Description">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="index.css">
+
+    
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-EEM2P610T9"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-EEM2P610T9');
+</script>
+
+    <script>
+        
+        // 检查 prefers-color-scheme 是否为 dark
+        if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+          // 模拟不正常行为的逻辑
+          const issueDetected = true; // 修改为 true 时显示弹窗
+          if (issueDetected) {
+            alert('Prefers color scheme: dark is not behaving as expected.');
+          }
+        }
+      </script>
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple.css"
+  />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+
+
+</head>
+
+<body>
+    <div id="app">Loading...</div>
+
+    <script>
+        window.$docsify = {
+            name: '<b>BoltM3</b>',
+            repo: 'https://github.com/arcbomi',
+            loadNavbar: true,
+            loadNavbar: 'config/navbar/_navbar.md',
+            alias: {
+            '.*\/en\/docs\/ftc\/.*/_sidebar.md': '/en/docs/ftc/_sidebar.md',
+            },
+            loadSidebar: true,
+            loadSidebar: '_sidebar.md',
+            loadFooter: true,
+            loadFooter: "config/footer/_en_footer.md",
+            notFoundPage: true,
+            notFoundPage:  {
+                '.*\/en\/.*': 'config/404/_en_404.md',
+                '.*\/kz\/.*': 'config/404/_kz_404.md',
+                '.*\/ru\/.*': 'config/404/_ru_404.md'
+            },
+            homepage: '/config/home/_en_home.md',
+            maxLevel: 5,
+            auto2top: true,
+            coverpage: false,
+
+            subMaxLevel: 1,
+            sidebarDisplayLevel: 1,
+            search: {
+                maxAge: 86400000,
+                paths: 'auto',
+                placeholder: 'Іздеу',
+                noData: 'Табылмайды',
+                depth: 4,
+                hideOtherSidebarContent: false,
+                namespace: 'Docsify-Guide',
+            },
+
+            latex: {
+                inlineMath: [['$(', ')$']],
+                displayMath: [['$$', '$$']],
+            },
+        };
+    </script>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.22/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/docsify@latest/lib/plugins/zoom-image.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/@alertbox/docsify-footer/dist/docsify-footer.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.js"></script>
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.css" />
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/sidebar-folder.min.css" />
+    
+    <script src="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js"></script>
+    
+    
+    <script src="//cdn.jsdelivr.net/npm/docsify-latex@0"></script>
+
+</body>
+
+</html>

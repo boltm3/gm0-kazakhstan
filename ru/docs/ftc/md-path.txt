@@ -1,0 +1,161 @@
+
+FullName                                                                                                                   
+--------                                                                                                                   
+//index.md [ok]                                                          
+//know-your-lingo.md  [OK]                                               
+//mission-statement.md [ok]                                              
+//start-here.md         [ OK ]                                             
+//useful-resources.md      [ok]   
+
+//appendix\gallery.md        [OK]                                        
+//appendix\index.md          [OK]                                        
+//appendix\license.md          [OK]                                      
+//appendix\vendor-guide.md        [OK]                                   
+//appendix\vendor-list.md         [OK]  
+
+//awards\award-types.md              [OK]                                
+//awards\index.md                     [OK]                               
+//awards\judging-presentation.md       [OK]                              
+//awards\notebook.md                     [OK]                            
+//awards\portfolio.md                  [OK]   
+
+//being-a-team\collaboration-and-efficiency.md    [OK]     [OK]              
+//being-a-team\how-to-ask-effective-questions.md  [OK]                   
+//being-a-team\index.md                  [OK]                            
+//being-a-team\outreach-basics.md        [OK]                            
+//being-a-team\pitching-your-team.md     [OK]                            
+//being-a-team\starting-a-team.md      [OK]                              
+//being-a-team\team-organization.md      [OK] 
+
+//common-mechanisms\arms.md              [OK]                            
+//common-mechanisms\dead-wheels.md       [OK]                            
+//common-mechanisms\design-tradeoffs.md    [OK]                          
+//common-mechanisms\index.md            [OK]                             
+//common-mechanisms\linkages.md         [OK][no 3d model]                             
+//common-mechanisms\passive-intake-claw.md     [OK]  
+                   
+//common-mechanisms\active-intake\index.md     [OK]                      
+//common-mechanisms\active-intake\principles-of-an-intake.md   [OK]      
+//common-mechanisms\active-intake\types-of-intakes.md        [OK] 
+
+//common-mechanisms\drivetrains\drivetrain-gallery.md       [ok]         
+common-mechanisms\drivetrains\holonomic.md             [NO]            
+//common-mechanisms\drivetrains\index.md                  [OK]           
+common-mechanisms\drivetrains\tank.md                 [NO]  
+
+common-mechanisms\linear-motion-guide\custom.md         [OK]           
+common-mechanisms\linear-motion-guide\drawer-slides.md   [OK]          
+common-mechanisms\linear-motion-guide\extrusion-slides.md   [rst!]       
+//common-mechanisms\linear-motion-guide\index.md [ok]                  
+common-mechanisms\linear-motion-guide\lead-screws.md               
+common-mechanisms\linear-motion-guide\linear-bearing-slides.md     
+common-mechanisms\linear-motion-guide\rack-and-pinion.md           
+common-mechanisms\linear-motion-guide\rigging.md       
+
+common-mechanisms\power-transmission\belt.md                       
+common-mechanisms\power-transmission\chain.md                      
+common-mechanisms\power-transmission\direct-drive.md               
+common-mechanisms\power-transmission\gears.md                      
+//common-mechanisms\power-transmission\index.md [ok]                     
+common-mechanisms\power-transmission\motion-mounting.md            
+common-mechanisms\power-transmission\power-transmission-glossary.md
+common-mechanisms\power-transmission\shaft-retention.md  
+
+//common-mechanisms\transfers\index.md [ok]                               
+common-mechanisms\transfers\transfer-design.md                     
+common-mechanisms\transfers\transfer-types.md   
+
+common-mechanisms\turrets\full-turret.md                           
+//common-mechanisms\turrets\index.md [ok]                                
+common-mechanisms\turrets\mini-turret.md    
+
+//contributing\contributors.md                                       
+//contributing\index.md  [ok]                                            
+//contributing\methods-of-contributing.md                            
+//contributing\style-guide.md     
+
+//custom-manufacturing\3d-printing.md                                
+//custom-manufacturing\index.md  [ok]                                    
+//custom-manufacturing\laser-cutting.md                              
+//custom-manufacturing\machining.md                                  
+//custom-manufacturing\manufacturing-glossary.md                     
+//custom-manufacturing\materials-guide.md  
+
+//design-skills\cad-tutorials.md                                     
+//design-skills\cad.md                                            
+//design-skills\design-glossary.md                                   
+//design-skills\design-strategy.md                                   
+//design-skills\engineering-design-process.md                        
+//design-skills\index.md [ok]
+
+//hardware-components\fastener-guide.md                              
+//hardware-components\index.md [ok]                                      
+//hardware-components\tips-and-tricks.md                             
+//hardware-components\tools-list.md   
+
+//hardware-components\kit-and-hardware-guide\actobotics.md           
+//hardware-components\kit-and-hardware-guide\custom.md               
+//hardware-components\kit-and-hardware-guide\gobilda.md              
+//hardware-components\kit-and-hardware-guide\index.md [ok]                
+//hardware-components\kit-and-hardware-guide\kit-glossary.md         
+//hardware-components\kit-and-hardware-guide\rev-robotics.md         
+//hardware-components\kit-and-hardware-guide\tetrix.md   
+
+//power-and-electronics\connectors-and-wires.md [ok]                      
+//power-and-electronics\control-system.md  [ok]                        
+//power-and-electronics\driver-station-guide.md [ok]                      
+//power-and-electronics\index.md [ok]                                    
+//power-and-electronics\sensor-glossary.md  [ok]                        
+//power-and-electronics\tips-and-tricks.md [ok]                       
+//power-and-electronics\wiring.md [ok]         
+
+//power-and-electronics\motor-guide\choosing-motor.md  [ok]              
+//power-and-electronics\motor-guide\gearbox-anatomy.md [ok]              
+//power-and-electronics\motor-guide\index.md [ok]                       
+//power-and-electronics\motor-guide\motor-glossary.md  [ok]              
+//power-and-electronics\motor-guide\motor-power.md   [ok]               
+//power-and-electronics\motor-guide\wiring-mounting-motors.md [ok] 
+
+//power-and-electronics\servo-guide\choosing-servo.md  [ok]             
+//power-and-electronics\servo-guide\index.md [ok]                        
+//power-and-electronics\servo-guide\usage-tips.md [ok]      
+
+
+//software\index.md [ok]                                                 
+software\software-glossary.md  [ok]    
+
+software\adv-control-system\control-system-internals.md [ok]           
+//software\adv-control-system\index.md  [ok]                            
+software\adv-control-system\lynx-module.md [false]                       
+software\adv-control-system\sdk-communication.md [ok]                 
+software\adv-control-system\sdk-motors.md [ok]                         
+software\adv-control-system\sdk-sensors.md [ok]                        
+software\adv-control-system\sdk-servos.md [ok]    
+
+software\concepts\control-loops.md   [false]                              
+software\concepts\finite-state-machines.md  [ok]                       
+//software\concepts\index.md    [ok]                                     
+software\concepts\kinematics.md  [ok]                                  
+software\concepts\odometry.md    [false]    
+
+software\getting-started\common-hardware-components.md [ok]            
+software\getting-started\common-issues.md [ok]                      
+software\getting-started\fundamental-concepts.md [ok]               
+//software\getting-started\index.md [ok]                                  
+software\getting-started\linear-opmode-vs-opmode.md [ok]            
+software\getting-started\options-for-programming.md  [ok]             
+software\getting-started\using-android-studio.md [false]    
+             
+software\tutorials\bulk-reads.md [ok]                              
+software\tutorials\encoders.md [false]                                
+software\tutorials\gamepad.md  [ok]                                    
+//software\tutorials\index.md                                        
+//software\tutorials\mecanum-drive.md [ok][no blk]                            
+//software\tutorials\using-telemetry.md [ok]                           
+//software\tutorials\vision.md [ok]                                      
+
+
+Total .md files: 128
+
+Total .rst files: 0
+     
